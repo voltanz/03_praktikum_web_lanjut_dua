@@ -26,24 +26,14 @@
             <div class="inner">
                 <center>
                     <h4 style="font-weight: bold">Pengalaman Kuliah</h4><br><br>
-                    <img src="dist/img/azzam.jpg" alt="foto azzam" style="width:200px"> <br><br>    
-                    <h4 style="font-weight: bold">Abdullah Azzam | 2141720073</h4>
-                    <p" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci 
-                    dignissimos deleniti quod quasi corporis reiciendis distinctio fugit sapiente 
-                    quibusdam praesentium quis animi aliquam ipsam voluptate, laboriosam quidem 
-                    laborum eaque sit! Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Facilis adipisci distinctio dolorem, odit officiis dolores fugit doloribus qui, 
-                    doloremque perferendis quia quos fuga. Voluptate debitis deserunt ex doloremque 
-                    sed aliquam. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur 
-                    voluptas suscipit beatae cumque excepturi est, dolore tempore accusantium nemo dolorem 
-                    dolorum quia, quibusdam voluptate debitis nostrum dignissimos, porro atque ipsam. 
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus exercitationem 
-                    maiores ad, pariatur nemo cum dolorem tenetur magni soluta distinctio, doloribus eligendi. 
-                    Quod assumenda ipsum tempora, ipsam nulla earum doloribus. Lorem ipsum dolor sit amet consectetur, 
-                    adipisicing elit. Modi vel veritatis laborum expedita rem ex esse possimus quasi iste quam impedit 
-                    explicabo enim alias aliquid consequuntur recusandae, amet id accusamus? Lorem ipsum dolor sit amet, 
-                    consectetur adipisicing elit. Minima maxime eius architecto id recusandae facere placeat, eos itaque 
-                    quam eaque voluptates ipsam dolorum repellendus non quis nihil harum repudiandae totam!
+                    <img src="dist/img/bima.png" alt="foto saya" style="width:200px"> <br><br>    
+                    <h4 style="font-weight: bold">Ahmad Bima Tristan Ibrahim | 2141720077</h4>
+                    <p" >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde ducimus delectus odit quod itaque! Dolorem blanditiis, 
+                    quia voluptatum consectetur reiciendis magni quod porro nulla deserunt repudiandae reprehenderit dolorum a pariatur ex deleniti fugiat quae nam cum ab quibusdam architecto. 
+                    Quod est ratione enim velit, aperiam atque, quibusdam corporis minus pariatur iusto tenetur explicabo incidunt saepe accusantium sunt libero rerum quia dignissimos cupiditate. 
+                    Expedita porro illum praesentium pariatur eveniet rerum eligendi, a laboriosam ipsam voluptate soluta error odio voluptatem blanditiis dolor. 
+                    Obcaecati repellendus laborum fugit sit ut optio nam iste corrupti mollitia commodi. Esse commodi nulla fuga fugit, qui quam enim, id possimus perferendis vitae, quaerat blanditiis quia maiores quis odio modi assumenda sint. 
+                    Quisquam voluptas maiores tenetur quis quae, molestias, earum totam consequatur, temporibus corrupti ipsam recusandae. Autem, sit aliquam.
                     </p>
                 </center>
             </div>

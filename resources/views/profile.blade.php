@@ -26,7 +26,7 @@
             <div class="inner">
                 <center>
                     <h4 style="font-weight: bold">Profil</h4><br><br>
-                    <img src="dist/img/azzam.jpg" alt="foto azzam" style="width:200px"> <br><br>    
+                    <img src="dist/img/bima.png" alt="foto saya" style="width:200px"> <br><br>    
                     
                     <h4 style="font-weight: bold">
                         ----------------------------------------------------------------------------------------------------------------------------------------------

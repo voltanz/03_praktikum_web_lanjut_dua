@@ -3,7 +3,7 @@
     <!-- Brand Logo -->
     <a href="dashboard" class="brand-link">
       <img src="dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
-      <span class="brand-text font-weight-light"><b>PALPALE</b></span>
+      <span class="brand-text font-weight-light"><b>Bima Tristan</b></span>
     </a>
 
     <!-- Sidebar -->
@@ -11,10 +11,10 @@
       <!-- Sidebar user panel (optional) -->
       <div class="user-panel mt-3 pb-3 mb-3 d-flex">
         <div class="image">
-          <img src="dist/img/azzam.jpg" class="img-circle elevation-2" alt="User Image">
+          <img src="dist/img/bima.png" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
-          <a href="#" class="d-block">Abdullah Azzam</a>
+          <a href="#" class="d-block">Ahmad Bima Tristan Ibrahim</a>
         </div>
       </div>
 

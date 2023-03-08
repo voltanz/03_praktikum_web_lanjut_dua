@@ -9,6 +9,6 @@ class DashboardController extends Controller
     public function index()
     {
         return view('dashboard')
-            ->with('full_name', "Abdullah Azzam");
+            ->with('full_name', "Ahmad Bima Tristan Ibrahim");
     }
 }
