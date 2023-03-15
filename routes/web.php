@@ -17,12 +17,14 @@ use App\Http\Controllers\DashboardController;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('dashboard');
 });
 
 // Auth::routes();
 
 Route::get('/home', [HomeController::class, 'index'])->name('dashboard');
 Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
-Route::get('/profile', [ProfileController::class, 'index'])->name('profile');
-Route::get('/kuliah', [KuliahController::class, 'index'])->name('kuliah');
+Route::get('/profile1', [ProfileController::class, 'profile1'])->name('profile1');
+Route::get('/profile2', [ProfileController::class, 'profile2'])->name('profile2');
+Route::get('/kuliah1', [ProfileController::class, 'kuliah1'])->name('kuliah1');
+Route::get('/kuliah2', [ProfileController::class, 'kuliah2'])->name('kuliah2');

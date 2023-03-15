@@ -11,7 +11,7 @@
         <div class="col-sm-6">
           <ol class="breadcrumb float-sm-right">
             <li class="breadcrumb-item"><a href="#">Home</a></li>
-            <li class="breadcrumb-item active">Profil</li>
+            <li class="breadcrumb-item active">Profil Azzam</li>
           </ol>
         </div><!-- /.col -->
       </div><!-- /.row -->
@@ -37,38 +37,41 @@
                     </h4>
                     <div class="container text-left">
                         <h4> <b>
+                            @foreach ($profile1 as $item)
+                                
                             <div class="row">
                                 <div class="col-sm-6 col-md-6">Nama Lengkap </div>
-                                <div class="col-sm-6 col md 6       ">: {!! $full_name !!}</div>
+                                <div class="col-sm-6 col md 6       ">: {{$item->full_name}}</div>
                             </div>
                             <div class="row">
                                 <div class="col-sm-6 col-md-6">Nama Panggilan </div>
-                                <div class="col-sm-6 col md 6       ">: {!! $short_name !!}</div>
+                                <div class="col-sm-6 col md 6       ">: {{$item->short_name}}</div>
                             </div>
                             <div class="row">
                                 <div class="col-sm-6 col-md-6">NIM </div>
-                                <div class="col-sm-6 col md 6       ">: {!! $nim !!}</div>
+                                <div class="col-sm-6 col md 6       ">: {{$item->nim}}</div>
                             </div>
                             <div class="row">
                                 <div class="col-sm-6 col-md-6">Nomor Absen </div>
-                                <div class="col-sm-6 col md 6       ">: {!! $absen !!}</div>
+                                <div class="col-sm-6 col md 6       ">: {{$item->absen}}</div>
                             </div>
                             <div class="row">
                                 <div class="col-sm-6 col-md-6">Kelas </div>
-                                <div class="col-sm-6 col md 6       ">: {!! $class !!}</div>
+                                <div class="col-sm-6 col md 6       ">: {{$item->class}}</div>
                             </div>
                             <div class="row">
                                 <div class="col-sm-6 col-md-6">Program Studi </div>
-                                <div class="col-sm-6 col md 6       ">: {!! $prodi !!}</div>
+                                <div class="col-sm-6 col md 6       ">: {{$item->prodi}}</div>
                             </div>
                             <div class="row">
                                 <div class="col-sm-6 col-md-6">Jurusan </div>
-                                <div class="col-sm-6 col md 6       ">: {!! $jurusan !!}</div>
+                                <div class="col-sm-6 col md 6       ">: {{$item->jurusan}}</div>
                             </div>
                             <div class="row">
                                 <div class="col-sm-6 col-md-6">Perguruan Tinggi </div>
-                                <div class="col-sm-6 col md 6       ">: {!! $kampus !!}</div>
+                                <div class="col-sm-6 col md 6       ">: {{$item->kampus}}</div>
                             </div>
+                            @endforeach
                         </b>
                         </h4>
                     </div>
@@ -81,19 +84,23 @@
                     </h4>
                     <div class="container text-left">
                         <h4> <b>
+                            @foreach ($profile1 as $item)
+                                
                             <div class="row">
                                 <div class="col-sm-6 col-md-6">Email </div>
-                                <div class="col-sm-6 col md 6       ">: {!! $email !!}</div>
+                                <div class="col-sm-6 col md 6       ">: {{$item->email}}</div>
                             </div>
                             <div class="row">
                                 <div class="col-sm-6 col-md-6">Nomor Handphone (WA) </div>
-                                <div class="col-sm-6 col md 6       ">: {!! $nohp !!}</div>
+                                <div class="col-sm-6 col md 6       ">: {{$item->nohp}}</div>
                             </div>
                             <div class="row">
                                 <div class="col-sm-6 col-md-6">ID Instagram </div>
-                                <div class="col-sm-6 col md 6       ">: {!! $ig !!}</div>
-                            </div>
-                        </b>
+                                <div class="col-sm-6 col md 6       ">: 
+                                    <a href="{{$item->ig}}">@jmdul_</a></div>
+                                </div>
+                                @endforeach
+                            </b>
                         </h4>
                     </div>
                 </center>

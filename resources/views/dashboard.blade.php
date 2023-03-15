@@ -11,14 +11,13 @@
 <!-- Main content -->
 <section class="content">
     <div class="container-fluid">
-        <!-- Small boxes (Stat box) -->
-        <div class="small-box bg-light" style="width: 200px auto">
-            <div class="inner">
-                <h4 style="font-weight: bold">Selamat Datang</h4>
-                <h5 style="font-weight: bold">{!! $full_name !!}</h5>
-            </div>
-        </div>
-        <!-- /.content -->
+                  <!-- Map card -->
+                  <div class="card bg-gradient-primary">
+                    <div style="margin: 30px">
+                      <h1 >Selamat Datang</h1>
+                    </div>
+                  </div>
+                  <!-- /.card -->
     </div>
 </section>
   <!-- /.content-wrapper -->
