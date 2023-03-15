@@ -26,7 +26,7 @@
             <div class="inner">
                 <center>
                     <h4 style="font-weight: bold">Pengalaman Kuliah</h4><br><br>
-                    <img src="dist/img/bima.jpg" alt="foto bima" style="width:200px"> <br><br> 
+                    <img src="dist/img/bima.jpg" alt="foto tristan" style="width:200px"> <br><br> 
                     @foreach ($kuliah2 as $item)
                         
                     <!-- {{-- <h4 style="font-weight: bold">Ahmad Bima Tristan Ibrahim | 2141720077</h4> --}} -->

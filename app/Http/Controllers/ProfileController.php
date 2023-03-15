@@ -14,7 +14,7 @@ class ProfileController extends Controller
     }
     public function profile2()
     {
-        $profile2 = Content::where('short_name', 'Bima')->get();
+        $profile2 = Content::where('short_name', 'Tristan')->get();
         return view('profile2', compact('profile2'));
     }
     public function kuliah1()
@@ -24,7 +24,7 @@ class ProfileController extends Controller
     }
     public function kuliah2()
     {
-        $kuliah2 = Content::where('short_name', 'Bima')->get();
+        $kuliah2 = Content::where('short_name', 'Tristan')->get();
         return view('kuliah2', compact('kuliah2'));
     }
 }
