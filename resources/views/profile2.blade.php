@@ -11,7 +11,7 @@
         <div class="col-sm-6">
           <ol class="breadcrumb float-sm-right">
             <li class="breadcrumb-item"><a href="#">Home</a></li>
-            <li class="breadcrumb-item active">Profil Bima</li>
+            <li class="breadcrumb-item active">Profil Tristan</li>
           </ol>
         </div><!-- /.col -->
       </div><!-- /.row -->
@@ -26,7 +26,7 @@
             <div class="inner">
                 <center>
                     <h4 style="font-weight: bold">Profil</h4><br><br>
-                    <img src="dist/img/bima.jpg" alt="foto bima" style="width:200px"> <br><br>    
+                    <img src="dist/img/bima.jpg" alt="foto tristan" style="width:200px"> <br><br>    
                     
                     <h4 style="font-weight: bold">
                         ----------------------------------------------------------------------------------------------------------------------------------------------
