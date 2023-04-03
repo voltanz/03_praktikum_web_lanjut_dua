@@ -13,7 +13,12 @@ class DashboardController extends Controller
 {
     public function index()
     {
+<<<<<<< HEAD
         $user = Auth::user();
         return view('dashboard', ['user' => $user]);
+=======
+        return view('dashboard')
+            ->with('full_name', "Ahmad Bima Tristan Ibrahim");
+>>>>>>> e69031d89b9d6999bc020030921d598420e9b74d
     }
 }
