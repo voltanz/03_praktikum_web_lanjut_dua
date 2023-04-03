@@ -13,9 +13,8 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('contents', function (Blueprint $table) {
-            $table->id();
-            $table->timestamps();
+        Schema::table('users', function (Blueprint $table) {
+            $table->string('username', 25)->after('id')->nullable()->unique();
         });
     }
 
@@ -26,6 +25,9 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('contents');
+        Schema::table('users', function (Blueprint $table) {
+            $table->dropcolumn('username');
+        });
     }
 };
+
