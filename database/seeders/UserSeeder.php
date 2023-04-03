@@ -21,6 +21,7 @@ class UserSeeder extends Seeder
             'name' => 'Abdullah Azzam',
             'email' => 'azzam17102003@gmail.com',
             'password' => Hash::make('azzam')
+<<<<<<< HEAD
         ],
         [
             'username' => 'bima',
@@ -31,3 +32,9 @@ class UserSeeder extends Seeder
         DB::table('users')->insert(data);
     }
 }
+=======
+        ]);
+        DB::table('users')->insert(data);
+    }
+}
+>>>>>>> d607cab6e2bd73d0ccf10fc0c403c24c95d9f668
